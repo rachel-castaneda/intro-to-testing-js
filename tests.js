@@ -25,3 +25,10 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+//unit tests for sayHello function
+describe('sayHello', function () {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe('function');
+    });
+    it
+});
