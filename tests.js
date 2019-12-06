@@ -52,3 +52,15 @@ describe('sayHello', function () {
         expect(sayHello()).not.toBe(null);
     });
 });
+//unit test for isFive function
+describe('isFive', function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return a boolean when executed', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('should return true when passed "5"', function () {
+        expect(isFive(true)).toBe(true)
+    });
+});

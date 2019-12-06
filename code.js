@@ -10,7 +10,11 @@ function sayHello(input){
         return "Hello, " + input + "!";
     }
 }
-sayHello("Pat")
-sayHello("Alex")
-sayHello("Jane")
-sayHello("World")
+// sayHello("Pat")
+// sayHello("Alex")
+// sayHello("Jane")
+// sayHello("World")
+
+function isFive(input) {
+    return typeof input === 'boolean';
+}
